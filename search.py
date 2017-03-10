@@ -27,7 +27,7 @@ banner = '''
 \t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 '''
 
-print banner
+print(banner)
 
 
 def main():
@@ -48,7 +48,7 @@ def main():
 			for bing in b:				
 				x = bing.replace('<h2><a href="https://', "").replace('<h2><a href="http://', "").replace('/"', "").replace('"', "") #this will strip https http /" "
 				'''if not x.find(searchString)==1:'''
-				print x
+				print(x)
 				uniqueSet.add(x)			
 		f= open('nww5.txt', 'w') #full url will be written ( you can skip next step if you want full url )
 		for i in uniqueSet:
@@ -72,4 +72,5 @@ def main():
 		print ""
 		print "Please Enter Valid Domain-Name or IP-Address"
 		print "" '''
-main()
+if __name__ == '__main__':
+	main()
