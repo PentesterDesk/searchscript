@@ -21,7 +21,7 @@ cls()
 banner = '''
 \t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \t\t| Bing Search script
-\t\t| Coded By: shawdowforce
+\t\t| Coded By: Pranav venkat
 \t\t| usage: python search.py 
 \t\t| Enter any dork: inurl:login.action, site:.com php?id= etc.
 \t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
