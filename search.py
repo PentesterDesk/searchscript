@@ -68,8 +68,8 @@ def main():
 	except urllib2.HTTPError:
 		pass
 
-	except socket.gaierror:
+'''	except socket.gaierror:
 		print ""
 		print "Please Enter Valid Domain-Name or IP-Address"
-		print ""
+		print "" '''
 main()
